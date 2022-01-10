@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head><style>
+.center {
+  margin: auto;
+  width: 60%;
+  height: 600px;
+ border: 3px solid grey;
+  padding: 10px;
+  box-shadow: 5px 20px 20px grey;
+  top: 30px;
+  text-align: center;
+    background-color: #e8f4f8;
+
+  
+
+},
+
+
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"><meta name="viewport" content="width=device-width, initial-scale=1">
+<BASE href=<%= urlBase %>>
+
+
+<title></title></head>
+<body>
+<div class="columns">
+  <div class="column">
+	<div class="center">
+<section class="section">
+    <div class="container">
+      <h1 class="title">
+        DeLorean Investing
+      </h1>
+      <p class="subtitle">
+        -by Kaseem Stephenson
+      </p>
+      <br>
+      <strong>-running on <%= urlBase %>
+</strong>
+      <br>
+      <form action="/results" method="POST">
+  <label for="fname">Enter a ticker(ex.. TSLA,AAPL,AAU)</label><br>
+ <input class="input is-success" type="text" name="ticker">
+    <br>
+
+    <label for="fname">Enter the amount you would've invested</label><br>
+ <input class="input is-success" type="number" name="investmentAmount">
+    <br>
+
+    <label for="fname">Investment Start Date</label><br>
+ <input class="input is-success" type="date" name="startDate">
+    <br>
+
+
+    <label for="fname">End</label><br>
+ <input class="input is-success" type="date" name="endDate">
+    <br>
+    <br>
+
+    <br>
+
+     <input class="button is-success" type="submit" value="Delor Invest" name="submitButton">
+</form> 
+
+    </div>
+  </section></div></div></div></body></html>

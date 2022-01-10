@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head><style>
+.center {
+  margin: auto;
+  width: 60%;
+  height: 700px;
+  border: 3px solid grey;
+  padding: 10px;
+  box-shadow: 5px 20px 20px grey;
+  top: 30px;
+  text-align: center;
+    background-color: #e8f4f8;
+
+
+  
+
+},
+p{
+  font-family: cursive;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="~bulma-calendar/dist/css/bulma-calendar.min.css" rel="stylesheet">
+<BASE href=<%= urlBase %>>
+
+<title></title></head>
+<body>
+<div>
+  <div class="center">
+<section class="section">
+    <div class="container">
+
+      <h1 class="title">
+        DeLorean Investing
+      </h1>
+        <button class="button is-danger"> GET-</button>
+
+      <p class="subtitle">
+       /ticker/startDate/endDate/invesmentAmount
+      </p>
+        <button class="button is-warning">ticker</button>
+
+      <p class="subtitle">
+          -string:eg, TSLA,AAPL
+      </p>
+              <button class="button is-warning">startDate</button>
+
+      <p class="subtitle">
+          -string:format("YYYY-MM_DD")
+      </p>
+                          <button class="button is-warning">endDate</button>
+
+      <p class="subtitle">
+
+          -string:format("YYYY-MM-DD")
+      </p>
+        <button class="button is-warning">investmentAmount</button>
+
+      <p class="subtitle">
+          -number:USD
+      </p>
+      <br>
+      <strong>-running on <%= urlBase %>
+</strong>
+      <br>
+      
+    </div>
+  </section></div></body></html>
