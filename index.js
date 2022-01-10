@@ -86,9 +86,7 @@ startDate:formData.startDate,endDate:formData.endDate,valueBase:"daily-low"}
 	
 	
 });
-app.listen(port, () => {
-        console.log(`Example app listening at http://localhost:${port}`);
-});
+
 
 function calculateDatePrice(startDate,ticker){
 	var accessKey = "ae3ede0ee07f2b6849daa0d6325ae5bb";
@@ -112,3 +110,6 @@ function calculateDatePrice(startDate,ticker){
     datePrice = datePrice.replace(":","")
     return parseInt(datePrice)
 }
+app.listen(port, () => {
+        console.log(`Example app listening at http://localhost:${port}`);
+});
