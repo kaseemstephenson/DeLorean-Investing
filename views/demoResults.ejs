@@ -34,11 +34,14 @@
         DeLorean Investing
       </h1>
       <br>
+        <button class="button is-success is-light"class="button is-large"><%=result.ticker%></button>
+        <br>
+
       <button class="button is-success is-light"class="button is-large">Investment Period: <%=result.startDate%> - <%=result.endDate%></button>
       <br>
-        <button class="button is-success is-light"class="button is-large">Investment Amount: $<%=result.initalInvestment%></button>
+        <button class="button is-success is-light"class="button is-large">Investment Amount: $<%=result.initalInvestment%></button><br>
         
-        <button class="button is-success is-light"class="button is-large">Return: $<%=result.endInvestmentValue%></button>
+        <button class="button is-success is-light"class="button is-large">Return: $<%=result.endInvestmentValue%></button><br>
         <a href="../demo">
         <button class="button is-link is-light"class="button is-large">Back</button></a>
 
