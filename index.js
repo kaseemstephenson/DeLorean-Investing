@@ -4,7 +4,7 @@ const axios = require('axios');
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var bodyParser = require('body-parser')
 const app = express();
-const port = 3111;
+const port = prcoess.end,PORT || 5000
 const baseUrl ="http://localhost:3111/"
 app.use( express.static( "public" ) )
 app.use(bodyParser.urlencoded({ extended: false }))
